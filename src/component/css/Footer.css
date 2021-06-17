@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    background-color: rgb(43, 41, 41);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 100%;
+    bottom: 0%;
+    height: 10vh;
+}
+
+footer p {
+    font-size: 1vh;
+}
+
+footer div {
+    margin-top: 5px;
+}
+footer a {
+    margin-left: 0px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+footer a img {
+    width: 50%;
+    height: auto;
+}
