@@ -11,8 +11,6 @@ const buttonReports = new Button("Project Reports");
 const buttonBlogs = new Button("Blogs");
 const buttonGames = new Button("Games");
 const buttons = [buttonHome, buttonReports, buttonBlogs, buttonGames];
-//<Header buttons = {buttons}/>
-const buttonProto = buttonHome.buttonRender();
 
 function mainViewer() {
     const body = (
