@@ -14,7 +14,7 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
-                    <img src = {personalLogo} target = "personal_logo" />
+                    <img src = {personalLogo} alt = "personal_logo" />
                     <ul>
                         {buttonList}
                     </ul>

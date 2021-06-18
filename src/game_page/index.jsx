@@ -1,3 +1,5 @@
+import React from 'react';
+
 class gameIndex extends React.Component {
     render() {
         return(
