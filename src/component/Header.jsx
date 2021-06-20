@@ -7,7 +7,7 @@ class Header extends React.Component {
         const buttons = this.props.buttons;
         const buttonList = buttons.map((button) => {
             return (
-                <li> {button.buttonRender()} </li>
+                <li key = {button.getName()}> {button.buttonRender()} </li>
             )
         });
 

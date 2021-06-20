@@ -1,6 +1,6 @@
 import React from 'react';
 
-class gameIndex extends React.Component {
+class GamePage extends React.Component {
     render() {
         return(
             <div>
@@ -9,3 +9,5 @@ class gameIndex extends React.Component {
         );
     }
 }
+
+export default GamePage;

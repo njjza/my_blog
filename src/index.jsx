@@ -1,30 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-import Header from './component/Header'
-import Footer from './component/Footer'
-import Button from './component/Button'
-import "./index.css"
+import "./index.css";
 
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Button from './component/Button';
+
+//const pageDefault = <p> default </p>
+//const pageAfterClick = <p> After Click </p>
 const buttonHome = new Button('Home Page');
 const buttonReports = new Button("Project Reports");
 const buttonBlogs = new Button("Blogs");
 const buttonGames = new Button("Games");
 const buttons = [buttonHome, buttonReports, buttonBlogs, buttonGames];
 
-function mainViewer() {
-    const body = (
-        <div>
-            <Header buttons = {buttons}/>
-            <App />
-            <Footer />
-        </div>  
-    );
-
+function header() {
     ReactDOM.render(
-        body,
+        <Header buttons = {buttons} />,
+        document.getElementById('header')
+    )
+}
+
+function footer() {
+    ReactDOM.render(
+        <Footer />,
+        document.getElementById('footer')
+    )
+}
+function mainViewer() {
+    ReactDOM.render(
+        <App buttons = {buttons}/>,
         document.getElementById('root')
     );
 }
 
+header();
 mainViewer();
+footer();
