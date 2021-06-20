@@ -43,7 +43,7 @@ class App extends React.Component {
                 }))
                 break;
             default:
-                {};
+                
         }
     }
 
@@ -70,6 +70,8 @@ class App extends React.Component {
             case "Games":
                 el = <GamePage />
                 break;
+            default:
+                
         }
 
         return (
