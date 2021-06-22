@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.js';
+import App from './App.jsx';
 
 import Header from './component/Header';
 import Footer from './component/Footer';
@@ -27,7 +27,7 @@ function footer() {
 }
 function mainViewer() {
     ReactDOM.render(
-        <App buttons = {buttons}/>,
+        <App/>,
         document.getElementById('root')
     );
 }

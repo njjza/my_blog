@@ -15,7 +15,7 @@ class HomePage extends React.Component {
             <div className = "HomePage">
                 <div className = "sideBar">
                     <img src = {personalLogo} alt = "Personal Logo"/>
-                    <a href = {resumeSrc} class = "downloadButton" download = "Henry's Resume"> Resume </a>
+                    <a href = {resumeSrc} className = "downloadButton" download = "Henry's Resume"> Resume </a>
                 </div>
                 <div className = "main">
                     <h2> Welcome, Bonjour, 你好</h2>
