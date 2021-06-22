@@ -2,33 +2,18 @@ import React from 'react';
 
 class Button {
     constructor(name) {
-        this.state = {
-            buttonName : name,
-            clicked : false
-        };
-    }
-
-    getState () {
-        return this.state.clicked;
+        this.buttonName = name;
     }
 
     getName () {
-        return this.state.buttonName;
+        return this.buttonName;
     }
 
     buttonRender() {
         return(
-            <button key = {this.state.buttonName}>
-                {this.state.buttonName}
+            <button key = {this.buttonName}>
+                {this.buttonName}
             </button>
-        );
-    }
-
-    #pageRender() {
-        return (
-            <div>
-                <p>this is a test message of button</p>
-            </div>
         );
     }
 }
