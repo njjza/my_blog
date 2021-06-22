@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-import "./index.css";
 
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Button from './component/Button';
 
-//const pageDefault = <p> default </p>
-//const pageAfterClick = <p> After Click </p>
 const buttonHome = new Button('Home Page');
 const buttonReports = new Button("Project Reports");
 const buttonBlogs = new Button("Blogs");

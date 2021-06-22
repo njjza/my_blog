@@ -12,15 +12,17 @@ class Header extends React.Component {
         });
 
         return (
-            <header>
-                <nav>
-                    <img src = {personalLogo} alt = "personal_logo" />
-                    <ul>
-                        {buttonList}
-                    </ul>
-                </nav>
-                <div className = "Separator"></div>
-            </header>
+            <div className = "Header">
+                <header>
+                    <nav>
+                        <img src = {personalLogo} alt = "personal_logo" />
+                        <ul>
+                            {buttonList}
+                        </ul>
+                    </nav>
+                    <div className = "Separator"></div>
+                </header>
+            </div>
         );
     };
 }
