@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
 
-import Header from './component/Header';
-import Footer from './component/Footer';
-import Button from './component/Button';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Button from './Components/Button';
 
 const buttonHome = new Button('Home Page');
 const buttonReports = new Button("Project Reports");

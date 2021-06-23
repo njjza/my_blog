@@ -1,15 +1,15 @@
 import React from 'react';
 
-import HomePage from './home_page';
-import ReportPage from './reports_page';
-import GamePage from './game_page';
-import BlogPage from './blog_page';
+import HomePage from './Pages/home_page';
+import ReportPage from './Pages/reports_page';
+import GamePage from './Pages/game_page';
+import BlogPage from './Pages/blog_page';
 import './App.css'
 
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {el : <HomePage />};
+        this.state = {el : <ReportPage />};
 
         this.handleClick = this.handleClick.bind(this);
     }

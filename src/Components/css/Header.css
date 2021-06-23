@@ -37,6 +37,7 @@
     text-align: center;
     width: 100px;
     float: left;
+    margin-left: 5px;
 }
 
 .Header nav ul li button{
@@ -47,6 +48,15 @@
     border: none;
 
     height: 100%;
+    width: 100px;
+}
+
+.Header nav ul li button:hover {
+    box-shadow: 2px 2px 10px rgb(185, 184, 184);
+}
+
+.Header nav ul li button:active {
+    box-shadow: 0px 0px;
 }
 
 .Header .Separator {
