@@ -1,0 +1,11 @@
+.ReportPage {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 80%;
+}
+
+.ReportPage embed {
+    height: 80vh;
+    width: 70vw;
+}
