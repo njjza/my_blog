@@ -9,7 +9,7 @@ import './App.css'
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {el : <ReportPage />};
+        this.state = {el : <HomePage />};
 
         this.handleClick = this.handleClick.bind(this);
     }
@@ -52,10 +52,8 @@ class App extends React.Component {
 
     render () {
         return (
-            <div>
-                <div className = "mainViewer">
-                    {this.state.el}
-                </div>
+            <div className = "mainViewer">
+                {this.state.el}
             </div>
         );
     };
